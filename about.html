@@ -1,0 +1,294 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium Web">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                font-family: Lora;
+            }
+
+            #nav-bar {
+                z-index: 5;
+                width: 100%;
+                height: 10%;
+                display: flex;
+                position: fixed;
+                background-color: transparent;
+                transition: ease 0.5s;
+                font-family: Titillium Web;
+            }
+
+            #nav-bar ul {
+                list-style-type: none;
+                margin: auto;
+                padding: 0;
+            }
+
+            #nav-bar li {
+                display: inline-block;
+            }
+
+            #nav-bar a {
+                color: black;
+                text-decoration: none;
+                margin-left: 50px;
+                top: 5%;
+            }
+
+            .underline {
+                border-bottom: black 1px solid;
+                padding-bottom: 5px;
+            }
+
+            /* Enter CSS Style Below */
+            #banner{
+                max-height:400px;
+                overflow: hidden;
+                
+            }
+
+            .banner-content {
+                text-align: center;
+                position: absolute;
+                top: 24%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color:  #2b2d2f;
+            }
+
+            .banner-content p {
+                font-size: 250%;
+                font-weight: bolder;
+                font-family: Kalam;
+                color: skyblue;
+            }
+
+            .banner-content img{
+                width: 300px;
+                height: 100px;
+            }
+
+            .product {
+                display: flex;
+            }
+
+            .product-copy {
+                padding: 5%;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+            }
+
+            .product-copy h1 {
+                font-family: Kalam;
+                font-size: 300%;
+                margin-bottom: 5%;
+            }
+
+            .product-copy p {
+                font-family: Titillium web;
+                font-size: 150%;
+            }
+
+            .button {
+                padding: 10px 25px;
+                font-size: 110%;
+                font-family: Titillium Web;
+                text-decoration: none;
+                color: black;
+                border-radius: 20px;
+                background-color: skyblue;
+                font-weight: bold;
+            }
+
+            .button-container {
+                margin-top: 5%;
+            }
+
+
+            .footer-container {
+                padding: 5%;
+                color: white;
+                background-color: #2b2d2f;
+                display:flex;
+                justify-content: space-between;
+            }
+
+            .footer-variant {
+                width: 25%;
+            }
+
+            .footer-variant h1 {
+                color: skyblue;
+                font-family: Kalam;
+                margin-bottom: 10px;
+            }
+
+            .footer-variant h2 {
+                font-family: titillium web;
+            }
+
+            .footer-variant div {
+                display: flex;
+                margin-bottom: 5px;
+            }
+
+            .footer-variant div img {
+                padding-right: 5px;
+            }
+
+            .footer-variant ul {
+                list-style: none;
+                
+            }
+
+            .footer-variant li a {
+                text-decoration: none;
+                color: white;
+            }
+
+            .footer-variant a{
+                text-decoration: none;
+                color: white;
+            }
+            .icon {
+                width: 20px;
+                height: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="nav-bar">
+            <ul>
+                <li><a href="index.html" class="nav-item">Home</a></li>
+                <li><a href="about.html" class="underline">About The Products</a></li>
+                <li><a href="store.html" class="nav-item">Store</a></li>
+                <li><a href="FAQ.html" class="nav-item">FAQ</a></li>
+                <li><a href="AboutCompany.html" class="nav-item">About Us</a></li>
+            </ul>
+        </div>
+
+        <div id="banner">
+            <img src="./images/Untitled.png" alt="store">
+            <div class = "banner-content">
+                <p>About Our Products</p>
+            </div>
+        </div>
+
+        <div class="all-products">
+            <div class="product">
+                <div class="product-copy">
+                    <h1>Basic Package</h1>
+                    <p>This screen is perfect for someone who finds the view outside their plane window distracting or frightening. It will allow you to have a stagnant picture or color of your choice to completely block the view. This will help you accomplish more work and be more productive during your flight as well as helping you with mitigate your fear. Our basic Package is the most economic screen that we offer but it is still has one of the highest resolutions in the screens' world.</p>
+                    <div class="button-container">
+                        <a href="" class='button'>Buy now!</a>
+                    </div>
+                </div>
+                <img src="images/forest-window.png" alt="Window view" style="width: 40%; height: 700px; object-fit: cover;">
+            </div>
+            <div class="product">
+                <img src="images/window view.jpg" style="width: 40%; height: 700px; object-fit: cover;">
+                <div class="product-copy">
+                    <h1>Premium Package</h1>
+                    <p>This screen is perfect for someone who, at times, enjoys the view outside a plane window. With the camera mounted in the back of the screen you can either display the live pictures outside or display a stagnant picture or color. Whatever you like! The premium version will increase your productivity when it's time to work but display the beautiful view on your down time.</p>
+                    <div class="button-container">
+                        <a href="store.html" class='button'>Buy now!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-copy">
+                    <h1>Travel case</h1>
+                    <p>The Travel Case is a sleeve that you can insert your screen into to protect it. An interesting feature that Travel Case has is its very light weight, which makes it stand out. This will ensure your screens protection at all times while still being small and portable enough to fit inside your carry-on.</p>
+                    <div class="button-container">
+                        <a href="store.html" class='button'>Buy now!</a>
+                    </div>
+                </div>
+                <img src="images/travel-case.jpg" style="width: 40%; height: 700px; object-fit: cover;">
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer-variant">
+                <h1>Elevated Dreams</h1>
+                <p>
+                    Here at Elevated Dreams we strive to give the most relaxing and 
+                    productive flying experience possible.
+                </p>
+            </div>
+            <div class="footer-variant">
+                <h2>Contact Us</h2>
+                <div>
+                    <img src='images/email-white.png' alt='email icon' class='icon'> 
+                    <a href = "mailto: vpres007@uottawa.ca">Vincent Préseault</a>
+                </div>
+                <div>
+                    <img src='images/email-white.png' alt='email icon' class='icon'> 
+                    <a href = "mailto: aarsh081@uottawa.ca">Amin Arshadi</a>
+                </div>
+                <div>
+                    <img src='images/email-white.png' alt='email icon' class='icon'> 
+                    <a href = "mailto: sdial064@uottawa.ca">Souleymane Diallo</a>
+                </div>
+                <div>
+                    <img src='images/email-white.png' alt='email icon' class='icon'> 
+                    <a href = "mailto: chald090@uottawa.ca">Charlie Haldane</a>
+                </div>
+                <div>
+                    <img src='images/email-white.png' alt='email icon' class='icon'> 
+                    <a href = "mailto: mzito042@uottawa.ca">Mounira Nihad Zitouni</a>
+                </div>
+                <div>
+                    <img src='images/email-white.png' alt='email icon' class='icon'> 
+                    <a href = "mailto: kdhin052@uottawa.ca">Karen Dhindsa</a>
+                </div>
+                <div>
+                    <img src='images/email-white.png' alt='email icon' class='icon'> 
+                    <a href = "mailto: dsala011@uottawa.ca">Dominic Salas</a>
+                </div>
+                <div>
+                    <img src='images/011-instagram-white.png' alt='instagram icon' class='icon'>
+                    <p>@ElevatedDreams</p>
+                </div>
+            </div>
+            <div class="footer-variant">
+                <h2>Key Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About The Products</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="AboutCompany.html">About Us</a></li>
+                    <li><br></li>
+                    <li>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" style='text-decoration: underline;'>Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" style='text-decoration: underline;'> www.flaticon.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            window.onscroll = function() {
+                const nav = document.getElementById('nav-bar');
+                if (window.pageYOffset > 50) {
+                    nav.style.backgroundColor = 'white';
+                } else {
+                    nav.style.backgroundColor = 'transparent';
+                }
+            }
+
+            var elements = document.getElementsByClassName("nav-item");
+
+            for (i = 0; i < elements.length; i++) {
+                elements[i].addEventListener('mouseenter', function(e) {
+                    this.classList.add('underline');
+                })
+                elements[i].addEventListener("mouseleave", function(e) {
+                    this.classList.remove('underline');
+                })
+            }
+        </script>
+    </body>
+</html>
